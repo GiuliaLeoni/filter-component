@@ -10,6 +10,23 @@ export const Filter = () => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
 
+    const [clear, setClear] = useState(false);
+
+    // apply selected options
+    const [apply, setApply] = useState(false);
+
+    const clearSelected = () => {
+        setClear(true);
+        console.log('User cleared filters');
+        //setApply to false???
+    }
+
+    const applySelected = () => { 
+        // set apply to true(?)
+        setApply(true);
+        console.log('User applied data: ');
+    }
+
     // fetch data - empty array, only on mount
     useEffect(() => {
         fetch('../data.json')
@@ -36,6 +53,10 @@ export const Filter = () => {
             subheader={
                 <ListSubheader sx={{textAlign: 'left', fontSize: '1rem', fontWeight: 'bold', color: 'black', display: 'flex', justifyContent: 'space-between'}} component="div" id="nested-list-subheader">
                 FILTERS
+                    <section>
+                        <Button onClick={clearSelected}>Clear</Button>
+                        <Button onClick={applySelected}>Apply</Button>
+                    </section>
                 </ListSubheader>
             }
             >
