@@ -14,17 +14,23 @@ export const Filter = () => {
 
     // apply selected options
     const [apply, setApply] = useState(false);
+    const [appliedOptions, setAppliedOptions] = useState([]);
+
+    useEffect(() => {
+
+        console.log('Data Applied: ', appliedOptions);
+
+    }, [appliedOptions]);
 
     const clearSelected = () => {
         setClear(true);
+        setAppliedOptions([]);
         console.log('User cleared filters');
-        //setApply to false???
     }
 
-    const applySelected = () => { 
-        // set apply to true(?)
+    const applySelected = (event, value) => { 
         setApply(true);
-        console.log('User applied data: ');
+        console.log('User applied data ');
     }
 
     // fetch data - empty array, only on mount
@@ -35,7 +41,6 @@ export const Filter = () => {
                     (result) => {
                         setIsLoaded(true);
                         setData(result);
-                        console.log(result);
                     },
                     (error) => {
                         setIsLoaded(true);
@@ -65,7 +70,13 @@ export const Filter = () => {
                     if(d.options.length > 0) {
                         return (<FilterItem 
                             key={idx} 
-                            d={d} 
+                            d={d}
+                            clear={clear} 
+                            setClear={setClear}
+                            apply={apply}
+                            setApply={setApply}
+                            setAppliedOptions={setAppliedOptions}
+                            appliedOptions={appliedOptions}
                         />)
                     }
                 })
