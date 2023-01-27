@@ -1,0 +1,284 @@
+[
+    {
+      "name": "Department",
+      "dimension_id": "department_id",
+      "dimension_title": "department_desc",
+      "options": [
+        {
+          "id": "19cc240a731aca131edbad97ccec7870cf27cbbf",
+          "title": "Accessories & Others"
+        },
+        {
+          "id": "158d82cd830b064e2db3d2249287f46ad4eaa588",
+          "title": "Canvas Bag"
+        },
+        {
+          "id": "f542b8a443c701ee8e38c62a23c16e573377c6a9",
+          "title": "City Bag"
+        },
+        {
+          "id": "00474ec1a0dd8b513f006585a54cf3d0387843fe",
+          "title": "Exotic"
+        },
+        {
+          "id": "dcef3e8f7c220ee1f1266f750d1e33abd16ebdec",
+          "title": "SLG - Canvas"
+        },
+        {
+          "id": "b364158b9e7ff8ff4a7b6fce0bed2230b0c22dda",
+          "title": "SLG - Leather"
+        }
+      ]
+    },
+    {
+      "name": "Sub-Department",
+      "dimension_id": "sub_department_id",
+      "dimension_title": "sub_department_desc",
+      "options": [
+        {
+          "id": "071c11be70f8f7e0177e8ff5b22a11f69dca600d",
+          "title": "6Cc Compact Wallet"
+        },
+        {
+          "id": "ecfc9323c164fec2904fa35eaaf57f2c1aaf8278",
+          "title": "Adjustable Shoulder Strap"
+        },
+        {
+          "id": "d263253f90baba25d63541da76d1325740bf4e64",
+          "title": "Bag Marquetry M.Hearld"
+        },
+        {
+          "id": "9737c359620373f6cade23c74999454a2cee9de6",
+          "title": "Bucket Bag"
+        },
+        {
+          "id": "83aa8ef0e32faa324519f39fa124106570e5f9a7",
+          "title": "Cabas"
+        },
+        {
+          "id": "4c26512201170dc20cac5a9bf043bfea51b6eb2b",
+          "title": "Clutch"
+        },
+        {
+          "id": "916ec83c63f4ca21d028e301f78d77f45199f8fe",
+          "title": "Compact Wallet"
+        },
+        {
+          "id": "9a249c66776e009bc8dfde85d41880da7d449420",
+          "title": "Compact Wallet Marquetry M.Hea"
+        },
+        {
+          "id": "1d991a059491e4c237f279676a93c4998be7edb2",
+          "title": "Flat Card Holder"
+        },
+        {
+          "id": "7a16ff68c060faf7def4c8eeee327dcd4d6a4702",
+          "title": "Handbags"
+        },
+        {
+          "id": "ab92b30839ed671fca3ecb8921413a342925aac7",
+          "title": "Hard Sided"
+        },
+        {
+          "id": "8821ff5eae7dc33ad10b9e7072cb332116437a43",
+          "title": "Heart Marquetry Cp"
+        },
+        {
+          "id": "1f698b4e0e08c617c76c04fd74a148f29fd7f086",
+          "title": "Horizontal Tote"
+        },
+        {
+          "id": "cbf1d5c5b0e16e07f5dc52cc7e1847c68bdfff7b",
+          "title": "Macaron Dove"
+        },
+        {
+          "id": "2428e0348594ce31068c4f93b0ec4585212c17a8",
+          "title": "Macaron Leaf"
+        },
+        {
+          "id": "308c9bdd23fef74da5305cb7485cdf1a2651c377",
+          "title": "Passport Holder"
+        },
+        {
+          "id": "75f61102b0d7c3da4f34c6ed3d2142fdeee039ca",
+          "title": "Phone Bag"
+        },
+        {
+          "id": "8898f5e61f23182b00460f9c91f7e247a85aa54c",
+          "title": "Porte Cartes"
+        },
+        {
+          "id": "de3baddd1659b21dbef476fd267942fb30a3dff0",
+          "title": "Porte Cartes Double"
+        },
+        {
+          "id": "445da693afa17ff2958d53e03aad24d96da3a584",
+          "title": "Porte Cartes Envelop"
+        },
+        {
+          "id": "c245fcd979d311f8ccbbb5861c10d40bc9715c34",
+          "title": "Pp Envelop"
+        },
+        {
+          "id": "a9ed6febb341ce6bec8337dfe3dcf0434e289a3b",
+          "title": "Shoulder Bag"
+        },
+        {
+          "id": "84731c507ee282421b61add8114e0f04064bad6b",
+          "title": "Shoulder Bag Strap"
+        },
+        {
+          "id": "c9ce3ddd0bad2008e6afa4edfa16fa7d507885f2",
+          "title": "Shoulder Strap"
+        },
+        {
+          "id": "b5a4befe28f5d2b1b23746844983aa9781a4a403",
+          "title": "Tour Clutch"
+        },
+        {
+          "id": "f43d7080e967f53e5d4eb80e9317ce306d552d73",
+          "title": "Trousse"
+        },
+        {
+          "id": "7236c07821d6c90b9633b4e473d0ee9a09908f99",
+          "title": "Trousse Envelop"
+        },
+        {
+          "id": "3d2e0527e9b9868735b77525f0ec65f2c9caa71d",
+          "title": "Vertical Tote"
+        },
+        {
+          "id": "3b0d90ac7f4b1ff9302a94c3d3059e0edbe8bed4",
+          "title": "Webbing Strap"
+        },
+        {
+          "id": "b4b8269f66456a0022656c4bed511fc1ab6d038e",
+          "title": "Web Should Bag"
+        },
+        {
+          "id": "561ea8e5f55806045dba9094c74a94bb2265f243",
+          "title": "Zip Card Holder"
+        },
+        {
+          "id": "25847c26dbdf341bb2c0c6159c01271a27e87cc1",
+          "title": "Zip Coin Purse"
+        },
+        {
+          "id": "303093fbfad218863e525919c914f49595180e4f",
+          "title": "Zip Long Wallet"
+        }
+      ]
+    },
+    {
+      "name": "Style",
+      "dimension_id": "style_id",
+      "dimension_title": "style_desc",
+      "options": [
+        {
+          "id": "cfd46a36afd8011b885d98e04213d508f7b8ba95",
+          "title": "Across"
+        },
+        {
+          "id": "1330761f1e74cc3c9b529c856175d947a843cac0",
+          "title": "Baluchon"
+        },
+        {
+          "id": "6904b56cb2291d536c21687a1a4324e7c7c24b8d",
+          "title": "Camera Bag"
+        },
+        {
+          "id": "dbfcf672a8f4af55e3ea87c959b71581e68c0e8f",
+          "title": "Enveloppe"
+        },
+        {
+          "id": "ad8919ace091b14011c6439cfd5e1707b58f5abd",
+          "title": "Event"
+        },
+        {
+          "id": "b8d0b9c673f10357d100fe7e76183be80b69a871",
+          "title": "Flori"
+        },
+        {
+          "id": "c443af47c07601154235dc41993f0462da1c62ee",
+          "title": "Gabrielle"
+        },
+        {
+          "id": "59ccfc8195b12c7f3d6e270bbfb57184b24bd678",
+          "title": "Le Duo"
+        },
+        {
+          "id": "250691d90f5e8e65459afd05cf6594f0c6ea69f2",
+          "title": "Malle"
+        },
+        {
+          "id": "5235ffca159f87e7ca7afc3669fdfa64c04944b0",
+          "title": "Oh!"
+        },
+        {
+          "id": "f73f5e2f00ba0f509d1b987fa69f89f98dc5e8f2",
+          "title": "Rejane"
+        },
+        {
+          "id": "320fafa90edc9cfb364628f50ff224a1186e1d54",
+          "title": "Roundy"
+        },
+        {
+          "id": "cda3d82085601bac826e58f586b7cdd40ce522b6",
+          "title": "Suitcase"
+        },
+        {
+          "id": "17437b35f56007c15b46228f8601f6cf271d681c",
+          "title": "Virage"
+        },
+        {
+          "id": "d40f2a13b86cb4b0aede6b8adec36cc585286e65",
+          "title": "Vitesse"
+        },
+        {
+          "id": "abcdb2419084b5e92a56661eabe310e9621bf8ff",
+          "title": "Webbing Tote"
+        },
+        {
+          "id": "0d972afce858a071cc6d48101b788a267789167f",
+          "title": "Wheel"
+        },
+        {
+          "id": "81c398527789439f3b2b4e708e2ae4379c1133ca",
+          "title": "Yoyo"
+        },
+        {
+          "id": "e86ae899515ffa49bdf74e4386d9016d81330bba",
+          "title": "Zippy"
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "dimension_id": "brand_id",
+      "dimension_title": "brand_desc",
+      "options": []
+    },
+    {
+      "name": "Merchandising Flag",
+      "dimension_id": "merchandising_flag",
+      "dimension_title": "merchandising_flag",
+      "options": [
+        {
+          "id": "Carry-Over",
+          "title": "Carry-Over"
+        },
+        {
+          "id": "Limited edition",
+          "title": "Limited edition"
+        },
+        {
+          "id": "Permanent",
+          "title": "Permanent"
+        },
+        {
+          "id": "Saisonnier",
+          "title": "Saisonnier"
+        }
+      ]
+    }
+  ]
