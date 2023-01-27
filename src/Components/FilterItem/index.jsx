@@ -13,16 +13,10 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
 import { FilterOptions } from '../FilterOptions';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+// import filterStyles from './filterItem.module.scss';
 
 const theme = createTheme({
-    components: {
-      // Name of the component
-      MuiListItemButton: {
-        defaultProps: {
-        disableRipple: true
-        }
-      }
-    }
+    textColor: '#808080',
   });
 
 export const FilterItem = ({d}) => {
@@ -33,17 +27,18 @@ export const FilterItem = ({d}) => {
     };
 
     return (
-        <>
+        <ThemeProvider theme={theme}>
             <ListItemButton variant="persistent" disableRipple onClick={handleClick}>
-                <ListItemText sx={{color: '#808080'}} primary={d.name} />
-                {open ? <ExpandLess sx={{color: '#808080'}}/> : <ExpandMore sx={{color: '#808080'}}/>}
+                <ListItemText sx={{color: theme.textColor}} primary={d.name} />
+                {open ? <ExpandLess sx={{color: theme.textColor}}/> : <ExpandMore sx={{color: theme.textColor}}/>}
             </ListItemButton>
             <Collapse in={open} timeout="auto" unmountOnExit>
                 {/* Filter Options for specific ListItemButton */}
                 <List component="div" sx={{display: 'flex', justifyContent: 'center', width: '100%'}}>
+                    {/* Filter options  */}
+                    <FilterOptions />
                 </List>
             </Collapse>
-        </>
-
+        </ThemeProvider>
     )
 }
