@@ -1,5 +1,7 @@
 import { FilterItem } from '../FilterItem';
 import { useState, useEffect } from 'react';
+import { ListSubheader, Button } from '@mui/material';
+import List from '@mui/material/List';
 
 export const Filter = () => {
 
@@ -26,7 +28,27 @@ export const Filter = () => {
     }, []);
 
     return (
-        // iterate through data
-        <FilterItem />
+
+        <List
+            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            component="nav"
+            aria-labelledby="nested-list-subheader"
+            subheader={
+                <ListSubheader sx={{textAlign: 'left', fontSize: '1rem', fontWeight: 'bold', color: 'black', display: 'flex', justifyContent: 'space-between'}} component="div" id="nested-list-subheader">
+                FILTERS
+                </ListSubheader>
+            }
+            >
+                {/* iterate through data */}
+                {data.map((d, idx) => {
+                    if(d.options.length > 0) {
+                        return (<FilterItem 
+                            key={idx} 
+                            d={d} 
+                        />)
+                    }
+                })
+                }
+            </List>
     )
 }
