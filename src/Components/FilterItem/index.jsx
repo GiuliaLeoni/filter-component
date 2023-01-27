@@ -13,7 +13,6 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
 import { FilterOptions } from '../FilterOptions';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-// import filterStyles from './filterItem.module.scss';
 
 const theme = createTheme({
     textColor: '#808080',
@@ -35,8 +34,7 @@ export const FilterItem = ({d}) => {
             <Collapse in={open} timeout="auto" unmountOnExit>
                 {/* Filter Options for specific ListItemButton */}
                 <List component="div" sx={{display: 'flex', justifyContent: 'center', width: '100%'}}>
-                    {/* Filter options  */}
-                    <FilterOptions />
+                    <FilterOptions d={d}/>
                 </List>
             </Collapse>
         </ThemeProvider>
