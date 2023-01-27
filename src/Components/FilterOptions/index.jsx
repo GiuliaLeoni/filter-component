@@ -12,6 +12,11 @@ export const FilterOptions = ({d}) => {
 
     const [selected, setSelected] = useState([]);
 
+    const updateSelected = (event, value) => {
+        console.log(`Value of ${d.name} filter: `, value);
+        setSelected([...value]);
+    } 
+
   return (
     <section>
     <Autocomplete
@@ -20,6 +25,7 @@ export const FilterOptions = ({d}) => {
       options={d.options}
       disableCloseOnSelect
       value={selected}
+      onChange={updateSelected}
       getOptionLabel={(option) => option.title}
       renderOption={(props, option, { selected }) => (
         <li {...props} style={{fontSize: '0.9rem'}}>
